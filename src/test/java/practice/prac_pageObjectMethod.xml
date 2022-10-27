@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite">
+    <test name="Chrome Automation Test" preserve-order="true">
+        <parameter name="Browser" value="Chrome"></parameter>
+        <classes>
+            <class name="practice.prac_pageObjectExecution" />
+            <class name="practice.prac_listBolean" />
+        </classes>
+    </test>
+    <test name="Firefox Automation Test" preserve-order="true">
+        <parameter name="Browser" value="Firefox"></parameter>
+        <classes>
+            <class name="practice.prac_pageObjectExecution" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
